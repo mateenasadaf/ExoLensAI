@@ -1,0 +1,38 @@
+[
+  {
+    "term": "Planet radius",
+    "text": "Planet radius koi_prad estimates the radius of a planet candidate, usually in Earth radii. Planet size can help distinguish planetary signals from false positives."
+  },
+  {
+    "term": "Signal to noise ratio",
+    "text": "Signal to noise ratio koi_model_snr measures the strength of the transit signal relative to noise. A stronger signal can make a transit easier to detect, but it does not prove that a planet exists."
+  },
+  {
+    "term": "Orbital period",
+    "text": "Orbital period koi_period is the time required for an object to complete one orbit around its star, measured in days. Repeated transits help estimate this period."
+  },
+  {
+    "term": "Transit duration",
+    "text": "Transit duration koi_duration measures how long a transit event lasts, in hours. It depends on factors including orbital geometry and the sizes of the star and transiting object."
+  },
+  {
+    "term": "Transit depth",
+    "text": "Transit depth koi_depth measures the decrease in observed stellar brightness during a transit, commonly reported in parts per million. It provides information about the relative sizes of the object and its star."
+  },
+  {
+    "term": "Equilibrium temperature",
+    "text": "Equilibrium temperature koi_teq is an estimated temperature based on the balance between absorbed stellar energy and emitted thermal energy under assumed conditions. It is not the measured surface temperature."
+  },
+  {
+    "term": "Insolation",
+    "text": "Insolation koi_insol represents the stellar energy received by a planet candidate relative to the Earth's solar irradiance. It helps characterize the candidate's radiation environment."
+  },
+  {
+    "term": "False positive",
+    "text": "A false positive is an astronomical signal that appears planet-like but is determined not to be a genuine planet. Examples include eclipsing binary stars and other astrophysical or instrumental signals."
+  },
+  {
+    "term": "Exoplanet candidate",
+    "text": "An exoplanet candidate is an object whose observations are consistent with a possible planet but that has not yet been confirmed. Additional validation may be required."
+  }
+]
