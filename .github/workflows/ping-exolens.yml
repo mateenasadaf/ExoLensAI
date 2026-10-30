@@ -1,0 +1,19 @@
+
+name: Check ExoLens AI
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  check-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check deployed Streamlit app
+        run: |
+          curl -sS -L \
+            --max-time 60 \
+            -o /dev/null \
+            -w "HTTP status: %{http_code}\n" \
+            https://exolensai-mateena-sadaf.streamlit.app/
