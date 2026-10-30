@@ -12,8 +12,8 @@ jobs:
     steps:
       - name: Check deployed Streamlit app
         run: |
-          curl -sS -L \
-            --max-time 60 \
+          curl -sS \
+            --max-time 30 \
             -o /dev/null \
             -w "HTTP status: %{http_code}\n" \
             https://exolensai-mateena-sadaf.streamlit.app/
